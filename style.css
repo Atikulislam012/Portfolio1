@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@0;1&family=Poppins:wght@300&display=swap');
+
+body{
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+header{
+    background-color: #fff8f3;
+    background-image: url(./images/header_bg.png), url(./images/developer.png
+    );
+    background-repeat: no-repeat;
+    background-position: bottom right, 30px 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+.btn-Secondary{
+    border-radius: 5px;
+    background-color:#fff8f3; 
+    color: #FD6E0A; 
+    border: 2px solid #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+    margin-left: 10px;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+h1{
+    font-size: 50px;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    margin: 50px;
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #474747;
+}
+
+nav li button{
+    padding: 15px 15px;
+}
+
+/*Header*/
+        
+
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner-greating{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner .profile-pic{
+    width: 500px;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.peratag{
+    color: #757575;
+}
+
+
+/*ABOUT me    ...............*/
+
+section{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 55px;
+    
+}
+
+section div .gfgsdf{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+section div .gfgsdf .gmail{
+    text-align: center;
+}
+.section1{
+    padding: 40px 150px 30px 150px;
+    display: flex;
+    
+   
+}
+.aboutsection{
+    background:#fff8f3;
+    border-radius: 10px;
+    padding: 100px 230px;
+}
+
+.aboutme{
+    font-size: 40px;
+}
+.gmail{
+    font-size: 12px;
+}
+
+
+/*................*/
+
+.section1{
+    
+}
+section div .gfgsdf3{
+    display: flex;
+    justify-content: space-between;
+}
+
+section div .gfgsdf3 .gmail1{
+    text-align: center;
+    
+}
+.gmail1{
+    font-size: 12px;
+    border: 1px solid none;
+    padding: 25px 20px;
+    border-spacing: 5px;
+    box-shadow: 5px 5px 16px 0px rgb(183, 183, 183);
+    height: 300px;
+    width: 250px;
+    border-radius: 5px;
+    margin-top: 30px;
+    
+    
+}
+.aboutsection2 .perasection1{
+    padding: 0 300px 0 300px;
+    
+}
+.gfgsdf3 .gmail1 img{
+    justify-content: right;
+}
+img {
+    margin-right: 200px;
+    
+}
+
+.gmail1 h2{
+    text-align: left;
+    margin-top: 40px;
+}
+
+.gmail1 p{
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 40px;
+    
+}
+
+/*Main Div*/
+.Maindiv{
+    display: inline-block;
+    padding: 0 150px 0 150px;
+}
+.maindiv1
+{
+    display: flex;
+    text-align: left;
+}
+
+hr {
+    margin-right: 40px;
+}
+.maindiv1 .maindiv0 p{
+   padding-right: 70px;
+}
+
+p{
+    color: #757575;
+}
+
+/*Footer*/
+
+.mainfooter{
+    display: inline-block;
+    margin-top: 100px;
+    padding: 10px 150px 200px 150px ;
+    background-color:#fff8f3;
+
+}
+.mainfooter .mainfooter1{
+    display: flex;
+}
+
+
+.mainfooter .mainfooter1 .ritetsite
+{
+    padding-right: 130px;
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+}
+.input1{
+    width: 100%;
+    padding: 60px 20px;
+    margin: 8px 0;
+    border: none;
+   
+}
